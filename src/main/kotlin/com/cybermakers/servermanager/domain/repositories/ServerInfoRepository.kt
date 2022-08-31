@@ -6,4 +6,4 @@ import org.springframework.stereotype.Repository
 import java.util.UUID
 
 @Repository
-interface ServerInfoRepository : MongoRepository<UUID, ServerInfo>
+interface ServerInfoRepository : MongoRepository<ServerInfo, UUID>
